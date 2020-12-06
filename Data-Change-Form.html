@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="DCF.css">
+    <title>Data Correction Page</title>
+    <style>
+        [class*="col"] {
+            /* background: #33b5e5;
+            padding: 1rem; */
+            /* border: 2px solid white; */
+            color: white;
+            text-align: center;
+        }
+        /* [class*="proceed-button"] {
+            margin-right: 30rem;
+        } */
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="navbar-brand">LEADWAY</div>
+            <button
+                class="navbar-toggler"
+                type="button"
+                style="background: violet;"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" aria-current="page">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">CHANGE HISTORY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">DRAFTS</a>
+                    </li>
+                </ul>
+             </div>
+        </div>
+    </nav>
+
+    <h2 class="text-center mt-3">DATA CORRECTION FORM</h2>
+
+    <div class="container">
+        <div class="staff-information ml-5">
+            <span class="staff-name">
+                Staff Name: <input type="form">
+            </span>
+            <span class="staff-location mr-5 float-right">
+                Location: <input type="form">
+            </span>
+        </div>
+    </div>
+    <br>
+    <div class="container-md bg-info">
+        <p class="first-header-text mt-2 text-white">CURRENT DATA (Non-editable)</p>
+    </div>
+
+    <div class="container mt-3">
+        <div class="card w-25" style="height: 12rem;">
+            <div class="card-body"></div>
+        </div>
+    </div>
+    <div class="container">
+        <form class="uneditable-fields">
+            <div class="form-group row">
+                <div class="uneditable-surname-field">
+                    SURNAME:
+                    <input type="form">
+                </div>
+            </div>
+            <div class="form-group row mt-2">
+                <div class="uneditable-firstname-field">
+                    FIRST NAME:
+                    <input type="form">
+                </div>
+            </div>
+            <div class="form-group row mt-2">
+                <div class="uneditable-middlename-field">
+                    MIDDLE NAME:
+                    <input type="form">
+                </div>
+            </div>
+            <div class="form-group row mt-2">
+                <div class="uneditable-rsapin-field">
+                    RSA PIN:
+                    <input type="form">
+                </div>
+            </div>
+            <div class="form-group row mt-2">
+                <div class="uneditable-email-field">
+                    EMAIL ADDRESS:
+                    <input type="form" style="width: 20rem;">
+                </div>
+            </div>
+            <div class="form-group row mt-2">
+                <div class="uneditable-number-field">
+                    MOBILE NUMBER:
+                    <input type="form">
+                </div>
+            </div>
+            <div class="form-group row mt-2">
+                <div class="uneditable-gender-field">
+                    Gender:
+                    <input type="form" style="width: 5rem;">
+                </div>
+            </div>     
+        </form>
+    </div>
+</body>

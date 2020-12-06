@@ -1,0 +1,17 @@
+.proceed-button {
+    margin-right: 250px !important;
+}
+
+.uneditable-fields {
+    margin-top: -190px;
+    margin-left: 350px;
+}
+
+.uneditable-gender-field {
+    margin-left: 350px;
+    margin-top: -38px;
+}
+
+/* #row-contents:hover {
+    transform: scale(1.10);
+} */
