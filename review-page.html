@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="DCF.css">
+    <title>REVIEW PAGE</title>
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <div class="navbar-brand">LEADWAY</div>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarcontents"
+                aria-controls="navbarcontents"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <i class="fas fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarcontents">
+                <ul class="navbar-nav mb-lg-0 mb-2">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link active" aria-current="page">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">NOTHING YET</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <div class="top-status row">
+            <div class="card-group">
+                <div class="card" style="background: teal; color: white; font-size: 18px; font-weight: bolder;">
+                    <div class="card-body text-center">PEN</div>
+                </div>
+                <div class="card" style="background: teal; color: white; font-size: 18px; font-weight: bolder;">
+                    <div class="card-body text-center">CHANGE TYPE</div>
+                </div>
+                <div class="card" style="background: teal; color: white; font-size: 18px; font-weight: bolder;">
+                    <div class="card-body text-center">APPROVED BY</div>
+                </div>                
+                <div class="card" style="background: teal; color: white; font-size: 18px; font-weight: bolder;">
+                    <div class="card-body text-center">STATUS</div>
+                </div>
+            </div>
+            <div class="card-group text-center" style="font-weight: 600;">
+                <div class="card">
+                    <div class="card-body">PEN1002252255</div>
+                </div>  
+                <div class="card">
+                    <div class="card-body">PERSONAL DETAILS</div>
+                </div>
+                <div class="card">
+                    <div class="card-body">SUPER MOD</div>
+                </div>
+                <div class="card">
+                    <div class="card-body">PENDING</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <hr>
+
+    <div class="container mt-5">
+        <div class="passport-signature-box">
+            <table class="table table-bordered text-center">
+                <thead class="table-secondary">
+                    <tr>
+                        <th scope="col">CURRENT DATA</th>
+                        <th scope="col">NEW DATA</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><div class="card ml-5" style="height: 12rem; width: 18rem;"></div></td>
+                        <td><div class="card ml-5" style="height: 12rem; width: 18rem;"></div></td>
+                    </tr>
+                    <tr>
+                        <td><div class="card ml-5" style="height: 12rem; width: 18rem;"></div></td>
+                        <td><div class="card ml-5" style="height: 12rem; width: 18rem;"></div></td>
+                    </tr>
+                </tbody>
+            </table>     
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+        <div class="dcf-notes row">
+            <label for="dcf-notes-label" class="text-center" style="font-weight: 600;">DCF NOTES</label>
+            <textarea id="dcf-notes-label" cols="20" rows="3" readonly></textarea>
+        </div>
+    </div>
+
+    <div class="container mt-2">
+        <div class="personal-info-header bg-secondary text-center text-white" style="font-weight: 600;">
+            <p class="personal-info">PERSONAL INFORMATION SECTION</p>
+        </div>
+        <table class="table table-bordered text-center">
+            <thead class="table-secondary">
+                <tr>
+                    <th scope="col">FIELD</th>
+                    <th scope="col">CURRENT DATA</th>
+                    <th scope="col"> NEW DATA</th>
+                    <th scope="col">EDIT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">SURNAME</th>
+                    <td>Jayden</td>
+                    <td><input type="form-control" placeholder="Mallam"></td>
+                    <td><button class="btn btn-sm btn-info edi">Edit</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">FIRST NAME</th>
+                    <td>LAMMY</td>
+                    <td><input type="form-control" placeholder="Zulum"></td>
+                    <td><button class="btn btn-sm btn-info edi">Edit</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">MIDDLE NAME</th>
+                    <td>Janet</td>
+                    <td><input type="form-control" placeholder="Panel"></td>
+                    <td><button class="btn btn-sm btn-info edi">Edit</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">DATE OF BIRTH</th>
+                    <td><input type="date"></td>
+                    <td><input type="date"></td>
+                    <td><button class="btn btn-sm btn-info edi">Edit</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">MARITAL STATUS</th>
+                    <td>
+                        <select class="custom-select">
+                            <option select>Marital Status</option>
+                            <option value="1">Single</option>
+                            <option value="2">Married</option>
+                            <option value="3">Divorced</option>
+                            <option value="4">Separated</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="custom-select">
+                            <option select>Marital Status</option>
+                            <option value="1">Single</option>
+                            <option value="2">Married</option>
+                            <option value="3">Divorced</option>
+                            <option value="4">Separated</option>
+                        </select>
+                    </td>
+                    <td><button class="btn btn-sm btn-info edi">Edit</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">TITLE</th>
+                    <td>
+                        <select class="custom-select">
+                            <option select>Title</option>
+                            <option value="1">Mr</option>
+                            <option value="2">Miss</option>
+                            <option value="3">Mrs</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="custom-select">
+                            <option select>Title</option>
+                            <option value="1">Mr</option>
+                            <option value="2">Miss</option>
+                            <option value="3">Mrs</option>
+                        </select>
+                    </td>
+                    <td><button class="btn btn-sm btn-info edi">Edit</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">MOBILE NUMBER</th>
+                    <td>0805052252255</td>
+                    <td><input type="form-control"></td>
+                    <td><button class="btn btn-sm btn-info edi">Edit</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">EMAIL</th>
+                    <td>lammy@gmail.com</td>
+                    <td><input type="form-control"></td>
+                    <td><button class="btn btn-sm btn-info edi">Edit</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <div class="address-change-header mt-2 bg-secondary text-white text-center" style="font-weight: 600;">
+            <p>CHANGE OF ADDRESS</p>
+        </div>
+        <table class="table table-bordered text-center">
+            <thead class="table-secondary">
+                <tr>
+                    <th scope="col">FIELD</th>
+                    <th scope="col">CURRENT DATA</th>
+                    <th scope="col">NEW DATA</th>
+                    <th scope="col">EDIT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">HOME ADDRESS</th>
+                    <td>15 Jamila Malina street</td>
+                    <td><textarea name="" cols="40" rows="2"></textarea></td>
+                    <td><button class="btn btn-sm btn-info">Edit</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">STATE</th>
+                    <td>
+                        <select class="custom-select">
+                            <option select>Select city</option>
+                            <option value="1">Lagos</option>
+                            <option value="2">Ogun</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="custom-select">
+                            <option select>Select city</option>
+                            <option value="1">Lagos</option>
+                            <option value="2">Ogun</option>
+                        </select>
+                    </td>
+                    <td><button class="btn btn-sm btn-info">Edit</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">LOCAL GOVERNMENT</th>
+                    <td>
+                        <select class="custom-select">
+                            <option select>Select LGA</option>
+                            <option value="1">Surulere</option>
+                            <option value="2">Somolu</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="custom-select">
+                            <option select>Select LGA</option>
+                            <option value="1">Surulere</option>
+                            <option value="2">Somolu</option>
+                        </select>
+                    </td>
+                    <td><button class="btn btn-sm btn-info">Edit</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <div class="table-header bg-secondary text-white" style="font-weight: 600;">
+            <p class="text-center">CHANGE OF EMPLOYER DETAILS</p>
+        </div>
+        <table class="table table-bordered text-center">
+            <thead class="table-secondary">
+                <tr>
+                    <th scope="col">FIELD</th>
+                    <th scope="col">CURRENT DATA</th>
+                    <th scope="col">NEW DATA</th>
+                    <th scope="col">EDIT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">EMPLOYER NAME</th>
+                    <td>Leadway Pensure PFA</td>
+                    <td><textarea name="" cols="40" rows="2"></textarea></td>
+                    <td><button class="btn btn-sm btn-info">Edit</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">EMPLOYER ADDRESS</th>
+                    <td>121/123 Funsho Williams Avenue</td>
+                    <td><textarea name="" cols="40" rows="2"></textarea></td>
+                    <td><button class="btn btn-sm btn-info">Edit</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">STATE</th>
+                    <td>
+                        <select class="custom-select">
+                            <option select>Select State</option>
+                            <option value="1">Lagos</option>
+                            <option value="2">Ogun</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="custom-select">
+                            <option select>Select State</option>
+                            <option value="1">Lagos</option>
+                            <option value="2">Ogun</option>
+                        </select>
+                    </td>
+                    <td><button class="btn btn-sm btn-info">Edit</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">LOCAL GOVERNMENT</th>
+                    <td>
+                        <select class="custom-select">
+                            <option select>Select LGA</option>
+                            <option value="1">Surulere</option>
+                            <option value="2">Somolu</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="custom-select">
+                            <option select>Select LGA</option>
+                            <option value="1">Surulere</option>
+                            <option value="2">Somolu</option>
+                        </select>
+                    </td>
+                    <td><button class="btn btn-sm btn-info">Edit</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">FILE/ID/SERVICE NUMBER</th>
+                    <td>15181881</td>
+                    <td><input type="form-control"></td>
+                    <td><button class="btn btn-sm btn-info edi">Edit</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">DESIGNATION</th>
+                    <td>Officer 1</td>
+                    <td><input type="form-control"></td>
+                    <td><button class="btn btn-sm btn-info">Edit</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">RC (If known)</th>
+                    <td>171785858</td>
+                    <td><input type="form-control"></td>
+                    <td><button class="btn btn-sm btn-info">Edit</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="container">
+        <div class="change-of-nok-header bg-secondary text-center text-white" style="font-weight: 600;">
+            <p>CHANGE OF NEXT OF KIN</p>
+        </div>
+        <table class="table table-bordered text-center">
+            <thead class="table-secondary">
+                <tr>
+                    <th scope="col">FIELD</th>
+                    <th scope="col">CURRENT DATA</th>
+                    <th scope="col">NEW DATA</th>
+                    <th scope="col">Edit</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">SURNAME</th>
+                    <td>Jayden</td>
+                    <td><input type="form-control" placeholder="Mallam"></td>
+                    <td><button class="btn btn-sm btn-info edi">Edit</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">FIRST NAME</th>
+                    <td>LAMMY</td>
+                    <td><input type="form-control" placeholder="Zulum"></td>
+                    <td><button class="btn btn-sm btn-info edi">Edit</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">MIDDLE NAME</th>
+                    <td>Janet</td>
+                    <td><input type="form-control" placeholder="Panel"></td>
+                    <td><button class="btn btn-sm btn-info edi">Edit</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">TITLE</th>
+                    <td>
+                        <select class="custom-select">
+                            <option select>Title</option>
+                            <option value="1">Mr</option>
+                            <option value="2">Miss</option>
+                            <option value="3">Mrs</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="custom-select">
+                            <option select>Title</option>
+                            <option value="1">Mr</option>
+                            <option value="2">Miss</option>
+                            <option value="3">Mrs</option>
+                        </select>
+                    </td>
+                    <td><button class="btn btn-sm btn-info edi">Edit</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">RELATIONSHIP</th>
+                    <td>
+                        <select class="custom-select">
+                            <option select>Choose Relationship</option>
+                            <option value="1">Husband</option>
+                            <option value="2">Wife</option>
+                            <option value="3">Cousin</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="custom-select">
+                            <option select>Choose Relationship</option>
+                            <option value="1">Husband</option>
+                            <option value="2">Wife</option>
+                            <option value="3">Cousin</option>
+                        </select>
+                    </td>
+                    <td><button class="btn btn-sm btn-info edi">Edit</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">STATE</th>
+                    <td>
+                        <select class="custom-select">
+                            <option select>Select State</option>
+                            <option value="1">Lagos</option>
+                            <option value="2">Ogun</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="custom-select">
+                            <option select>Select State</option>
+                            <option value="1">Lagos</option>
+                            <option value="2">Ogun</option>
+                        </select>
+                    </td>
+                    <td><button class="btn btn-sm btn-info">Edit</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">LOCAL GOVERNMENT</th>
+                    <td>
+                        <select class="custom-select">
+                            <option select>Select LGA</option>
+                            <option value="1">Surulere</option>
+                            <option value="2">Somolu</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select class="custom-select">
+                            <option select>Select LGA</option>
+                            <option value="1">Surulere</option>
+                            <option value="2">Somolu</option>
+                        </select>
+                    </td>
+                    <td><button class="btn btn-sm btn-info">Edit</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">MOBILE NUMBER</th>
+                    <td>0805052252255</td>
+                    <td><input type="form-control"></td>
+                    <td><button class="btn btn-sm btn-info edi">Edit</button></td>
+                </tr>
+                <tr>
+                    <th scope="row">EMAIL</th>
+                    <td>lammy@gmail.com</td>
+                    <td><input type="form-control"></td>
+                    <td><button class="btn btn-sm btn-info edi">Edit</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+    <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+</html>
